@@ -1,4 +1,11 @@
 import psutil
+import cpuinfo
+import platform
+
+# Information about sysem and pc
+print(f"Architecture: {platform.architecture()}")
+print(f"Network Name: {platform.node()}")
+print(f"Operating System: {platform.platform()}")
 
 # Display information for each core
 print("CPU Usage per core: ")
