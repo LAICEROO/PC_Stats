@@ -1,4 +1,4 @@
-# PC Stats
+# PC Info
 
 ## Overview
 The PC Stats script provides information about CPU usage and frequency for each core, virtual memory, swap memory, network usage, temperatures (if available), battery status (for laptops), and disk information. It uses the `psutil` library to gather system information.
